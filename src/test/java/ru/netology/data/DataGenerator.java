@@ -40,7 +40,7 @@ public class DataGenerator {
     }
 
     public static String getRandomPassword() {
-        String password = faker.code().ean8();
+        String password = faker.code().imei();
         return password;
     }
 
